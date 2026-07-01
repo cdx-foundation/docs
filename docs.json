@@ -13,7 +13,7 @@
       {
         "tab": "Resources",
         "pages": [
-          "index",
+          "store",
           "escrow-errors",
           "general-faqs",
           {
@@ -26,17 +26,6 @@
               "weed/faqs",
               "weed/changelog",
               "weed/previews"
-            ]
-          },
-          {
-            "group": "Coke",
-            "icon": "snowflake",
-            "pages": [
-              "coke/installation",
-              "coke/exports",
-              "coke/integrations",
-              "coke/faqs",
-              "coke/changelog"
             ]
           }
         ]
