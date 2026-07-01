@@ -17,8 +17,11 @@
           "escrow-errors",
           "general-faqs",
           {
-            "group": "Weed",
-            "icon": "seedling",
+            "group": "CDX Store",
+            "icon": {
+              "name": "store",
+              "library": "fontawesome"
+            },
             "pages": [
               "weed/installation",
               "weed/exports",
