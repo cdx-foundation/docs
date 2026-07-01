@@ -16,6 +16,24 @@
           "index",
           "quickstart"
         ]
+      },
+      "store",
+      "faqs",
+      "escrow-errors",
+      {
+        "group": "CDX Store",
+        "pages": [],
+        "expanded": true
+      },
+      "cdx-store/preview",
+      "cdx-store/installation",
+      "cdx-store/changelog",
+      {
+        "group": "Exports",
+        "pages": [
+          "cdx-store/exports/client",
+          "cdx-store/exports/server"
+        ]
       }
     ],
     "global": {
