@@ -11,43 +11,49 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Resources",
+        "tab": "Scripts",
         "pages": [
           "store",
-          "escrow-errors",
           "general-faqs",
+          "escrow-errors",
           {
             "group": "CDX Store",
-            "icon": {
-              "name": "store",
-              "library": "fontawesome"
-            },
+            "icon": "store",
             "pages": [
-              "weed/installation",
-              "weed/exports",
-              "weed/integrations",
-              "weed/faqs",
-              "weed/changelog",
-              "weed/previews"
-            ]
+              "in-game-store/preview",
+              "in-game-store/installation",
+              "in-game-store/changelog",
+              "in-game-store/integrations",
+              {
+                "group": "Exports",
+                "pages": [
+                  "client",
+                  "server"
+                ]
+              },
+              {
+                "group": "Events",
+                "pages": [
+                  "client-1",
+                  "server-1"
+                ]
+              }
+            ],
+            "expanded": true
           }
         ]
       },
       {
         "tab": "Store",
-        "href": "https://example.com/store"
-      },
-      {
-        "tab": "Discord",
-        "href": "https://discord.gg/"
+        "href": "https://cdx-foundation.dev"
       },
       {
         "tab": "Github",
-        "href": "https://github.com/"
+        "href": "https://github.com/cdx-foundation"
       },
       {
-        "tab": "Youtube",
-        "href": "https://youtube.com/"
+        "tab": "Discord",
+        "href": "https://discord.gg/uqDRPkvmdh"
       }
     ]
   },
