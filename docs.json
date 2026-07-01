@@ -29,14 +29,16 @@
                 "pages": [
                   "client",
                   "server"
-                ]
+                ],
+                "icon": "file-export"
               },
               {
                 "group": "Events",
                 "pages": [
                   "client-1",
                   "server-1"
-                ]
+                ],
+                "icon": "code"
               }
             ],
             "expanded": true
